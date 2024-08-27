@@ -1,0 +1,30 @@
+table {
+  width: 100%;
+}
+
+th.mat-header-cell, td.mat-cell {
+  text-align: left;
+}
+
+mat-form-field {
+  margin-bottom: 16px;
+}
+
+img {
+  border-radius: 50%;
+}
+@media (max-width: 600px) {
+  .mat-header-cell, .mat-cell {
+    font-size: 12px; /* Adjust font size for smaller screens */
+    padding: 4px;
+  }
+
+  .mat-header-cell {
+    background-color: #e0e0e0;
+  }
+
+  .table-container {
+    display: block;
+    overflow-x: auto; /* Horizontal scroll on small screens */
+  }
+}
